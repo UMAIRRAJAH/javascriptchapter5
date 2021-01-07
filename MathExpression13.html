@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+</head>
+
+<body>
+      <script>
+            //             The Lifetime Supply Calculator: Ever wonder how
+            // much a “lifetime supply” of your favorite snack is?
+            // Wonder no more.
+            // a. Store your favorite snack into a variable
+            // b. Store your current age into a variable.
+            // c. Store a maximum age into a variable.
+            // d. Store an estimated amount per day (as a number).
+            // e. Calculate how many would you eat total for the rest of
+            // your life.
+            // Output the result to the screen like so: “You will need
+            // NNNN to last you until the ripe old age of NN”.
+            document.write("<h1>The Lifetime Supply Calculator</h1>" + "<br><br><br>");
+            var a = prompt("Enter Your Favourite Snake: ");
+            var b = +prompt("Your Current Age: ");
+            var c = +prompt("Estimated Maximum Age: ");
+            var d = +prompt(" Enter the  Amount of snack per day you want: ");
+            document.write("favourite snack: " + a + "<br>");
+            document.write("Current Age: " + b + "<br>");
+            document.write("Estimated Maximum Age:" + c + "<br>");
+            document.write(" Amount of snack per day: " + d + "<br>");
+
+
+            document.write("You will need " + (c - b) * d + " " + a + " to last you until the ride old age of " + c);
+      </script>
+</body>
+
+</html>
